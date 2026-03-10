@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.header {
+  padding: 40px 0 20px;
+}
+
+.header__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.header__logo {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.header__logo-image {
+  width: 110px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 18px;
+  margin-bottom: 18px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+  margin-left: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav-list--right {
+  margin-right: 18px;
+}
+
+.main__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product__image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.product__detail {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.product__title {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 18px 0;
+}
+
+.product__text {
+  margin: 0 0 16px;
+}
+
+.product__price {
+  margin: 0 0 24px;
+}
+
+.product__form {
+  margin-bottom: 24px;
+}
+
+.product__form-table {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 12px;
+  border-collapse: collapse;
+}
+
+.product__form-table th,
+.product__form-table td {
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 6px 8px;
+}
+
+.product__form-table th:last-child,
+.product__form-table td:last-child {
+  border-right: none;
+}
+
+.product__form-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.product__form-table th {
+  font-weight: 400;
+}
+
+.product__form-table select {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #d9d9d9;
+  font-size: 12px;
+}
+
+.product__button {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.product__table {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  font-size: 12px;
+}
+
+.product__table th,
+.product__table td {
+  border: 1px solid #d9d9d9;
+  padding: 6px 8px;
+}
+
+.product__table thead th,
+.product__table tbody th {
+  background-color: #efefef;
+  font-weight: 400;
+}
+
+@media (max-width: 896px) {
+  .header {
+    padding: 24px 0 0 0;
+  }
+  .header__inner {
+    border-bottom: none;
+  }
+  .header__nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 0;
+    margin-bottom: 4px;
+  }
+  .header__nav-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-bottom: 6px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .header__nav-list--right {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .main__container {
+    padding-top: 0px;
+  }
+  .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

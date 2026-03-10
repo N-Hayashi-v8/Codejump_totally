@@ -1,0 +1,103 @@
+.product {
+  display: flex;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product__image {
+  flex: 1 1 50%;
+}
+
+.product__detail {
+  flex: 1 1 50%;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.product__title {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 18px 0;
+}
+
+.product__text {
+  margin: 0 0 16px;
+}
+
+.product__price {
+  margin: 0 0 24px;
+}
+
+.product__form {
+  margin-bottom: 24px;
+}
+
+.product__form-table {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 12px;
+  border-collapse: collapse;
+}
+
+.product__form-table th,
+.product__form-table td {
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 6px 8px;
+}
+
+.product__form-table th:last-child,
+.product__form-table td:last-child {
+  border-right: none;
+}
+
+.product__form-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.product__form-table th {
+  font-weight: 400;
+}
+
+.product__form-table select {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #d9d9d9;
+  font-size: 12px;
+}
+
+.product__button {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.product__table {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  font-size: 12px;
+}
+
+.product__table th,
+.product__table td {
+  border: 1px solid #d9d9d9;
+  padding: 6px 8px;
+}
+
+.product__table thead th,
+.product__table tbody th {
+  background-color: #efefef;
+  font-weight: 400;
+}

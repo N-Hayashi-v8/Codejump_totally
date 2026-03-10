@@ -1,0 +1,37 @@
+@media (max-width: 896px) {
+
+  .header{
+    padding: 24px 0 0 0;
+  }
+
+  .header__inner {
+    border-bottom: none;
+  }
+
+  .header__nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
+    gap: 0;
+    margin-bottom: 4px;
+  }
+
+  .header__nav-list {
+    justify-content: flex-start;
+    padding-bottom: 6px;
+    flex: 0 0 auto;
+  }
+
+  .header__nav-list--right {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .main__container {
+    padding-top: 0px;
+  }
+
+  .product {
+    flex-direction: column;
+  }
+}
